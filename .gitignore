@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Large datasets (optional - you may want to track smaller ones)
+*.txt
+*.csv
+raw_data.csv
+KDDTest+.txt
+KDDTrain+.txt
+
+# Model files (optional - depends if you want to version them)
+*.pkl
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git line ending settings
+* text=auto
